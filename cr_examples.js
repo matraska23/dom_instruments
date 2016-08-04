@@ -13,7 +13,6 @@ Arguments:
 2 - class name (optional)
 3 - text content (optional)
 */
-Cr('div', 'ex1_wrap').prop('title', 'text on hover', )
 console.groupEnd();
 //===================================
 // Properties
@@ -24,7 +23,7 @@ console.dir(
 	Cr('label', 'ex2_label').prop('title', 'text on hover')
 );
 console.dir(
-	Cr('input', 'ex2_checkbox').prop('type', 'checkbox', 'checked', true);
+	Cr('input', 'ex2_checkbox').prop('type', 'checkbox', 'checked', true)
 );
 /*
 prop() method configure element properties.
@@ -102,6 +101,7 @@ console.dir(controls);
 /*
 `alias(name, collection)` method store reference on DOM element at collection object by name property
 */
+console.groupEnd();
 //===================================
 // Generate nodes by list
 //===================================
@@ -130,7 +130,7 @@ console.dir(
 			Cr('span', 'ex7_country', item.country),
 			Cr('span', 'ex7_capital', item.capital)
 		);
-	});
+	})
 );
 /*
 Cr.list() method work with arrays and plain objects
