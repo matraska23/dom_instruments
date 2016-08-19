@@ -1,13 +1,11 @@
-
-
 It's hard to write easy understandable and readable documentation, so you can find file with examples of usage.
 And your know, really full documentation at sources.
 
 For what it is?
----------------
-1. $4 is collection of functions for DOM manipulation, that can be used if you don't want to use jQuery or something else.
-
-2. Cr library for creating parts of DOM instead of using innerHTML (and other methods to prevent concatenation html code at js).
+===
+- $4 is collection of functions for DOM manipulation, that can be used if you don't want to use jQuery or something else.
+- Cr() - library for creating parts of DOM instead of using innerHTML (and other methods to prevent concatenation html code at js).
+- V() - my notes about how d3.js can be made.
 
 Example:
 
