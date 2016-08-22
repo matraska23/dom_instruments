@@ -1,9 +1,9 @@
 define(['VLib'], function Vtest(V){
 
 	var $svg = V('svg').attr({
-		viewbox: '0 0 600 600',
-		width: 600,
-		height: 500
+		viewbox: '0 0 500 300',
+		width: 500,
+		height: 300
 	})
 
 	// Display bitmap image at pattern
@@ -44,9 +44,26 @@ define(['VLib'], function Vtest(V){
 		});
 
 	document.body.appendChild($svg.root);
+
+
+	document.body.appendChild(
+		V.svg('0 0 500 300', 500, 300).
+			add('text', {
+				x: 13,
+				y: 16,
+				'font-size': 13,
+				fill: '#afafaf',
+			}).
+			text('hello svg world!').
+			parent().
+			add('text', {
+				x: 30,
+				y: 42,
+				'font-size': 18,
+				fill: '#afafaf',
+			}).
+			lines('abc\n1234567890\nnew line', 20).
+		root);
+
 });
 
-
-/*
-
-*/
