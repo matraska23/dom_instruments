@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<div id="main"></div>
+		<script src="lib/cr.js"></script>
+<script>
+var $main = document.getElementById('main');
+
+var table = Cr('table');
+
+table.append('thead').append('tr').add(
+	Cr('td', null, '-1-'),
+	Cr('td', null, '-2-'),
+	Cr('td', null, '-3-')
+);
+$main.appendChild(table.root);
+var tbody = table.append('tbody');
+
+tbody.add(Cr.list([
+	[1,2,3],
+	[4,5,6],
+	[7,8,9]
+], function(item){
+	return Cr('tr').add(Cr.list(
+		item, function(item){
+			return Cr('td', null, item);
+		}
+	));	
+}))
+
+
+
+</script>
+	</body>
+</html>
