@@ -1,0 +1,48 @@
+.tk_wrap{
+	display: table-cell;
+}
+.tk_root{
+	position: relative;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column-reverse;
+	overflow: hidden;
+}
+.tk_head,
+.tk_body{
+	width: 100%;
+}
+.tk_head{
+	flex: 0 0 auto;
+	box-sizing: border-box;
+}
+.tk_head > .tk_row{
+	overflow: hidden;
+}
+.tk_body{
+	height: 100%;
+	overflow-y: auto;
+	flex: 1 1 auto;
+}
+.tk_row{
+	display: flex;
+	flex-direction: row;
+}
+.tk_head-cell,
+.tk_body-cell{
+	flex: 1 1 auto;
+	font-size: 13px;
+	line-height: 18px;
+}
+.tk_head-cell{
+
+}
+.tk_head-cell{
+
+}
+.tk_head-cell.__sortbtn{
+	background: red;
+	cursor: pointer;
+}

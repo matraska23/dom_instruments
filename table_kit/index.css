@@ -1,0 +1,17 @@
+body{
+	margin: 0;
+}
+
+
+.custom_cell{
+	width: 120px;
+	min-width: 120px;
+}
+.custom_table{
+	border: 1px solid #ccc;
+}
+.tk_head-cell{
+	background: orange;
+}
+
+
