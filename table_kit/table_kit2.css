@@ -1,0 +1,17 @@
+html{
+	font: 13px/18px Arial;
+}
+.tk_head-cell.__sortbtn{
+	background: orange;
+	cursor: pointer;
+}
+.tk_head-cell.__sortbtn.__reverse{
+	background: #ccc;
+}
+.custom_table td{
+	padding: 5px 10px;
+}
+.custom_table > thead{
+	-webkit-user-select: none;
+}
+			

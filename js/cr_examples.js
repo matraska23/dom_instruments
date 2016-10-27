@@ -136,3 +136,16 @@ console.dir(
 Cr.list() method work with arrays and plain objects
 */
 console.groupEnd();
+
+
+
+//===================================
+// 
+//===================================
+console.log('Example #8. Nesting');
+console.group();
+var nodes = Cr('div1').append('div2').append('div3');
+
+console.dir(nodes);
+
+console.groupEnd();

@@ -1,3 +1,5 @@
+// Attention: решение очень кастыльное
+
 // Create keyword list string	
 function keyolize(o){
 	var s = '';
